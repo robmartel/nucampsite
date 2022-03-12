@@ -32,7 +32,7 @@
                     <div class="col-md-4 col-xl-2 mt-4">
                         <!--the text-nowrap class makes sure that the wording reserve campsite stays on one line instead of defaulting to two lines-->
                         <!--Beginning of Modal-->
-                        <a role="button" class="btn btn-lg btn-info text-nowrap" data-toggle="modal" data-target="#reserveModal">
+                        <a role="button" class="btn btn-lg btn-info text-nowrap" id="reserveButton" >
                            Reserve Campsite
                         </a>
                     </div>
@@ -42,7 +42,7 @@
     <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header bg-info text-white">
+                <div class="modal-header">
                     <h3 class="modal-title">Reserve a Campsite</h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -110,7 +110,7 @@
                         </ul>
                         <!--Beginning of Modal-->
                         <span class="navbar-text ml-auto">
-                            <a role="button" data-toggle="modal" data-target="#loginModal">
+                            <a role="button" id="loginButton" >
                                 <i class="fa fa-sign-in"></i> Login
                             </a>
                         </span>
@@ -121,7 +121,7 @@
             <div id="loginModal" class="modal fade" role="dialog">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
-                        <div class="modal-header bg-info text-white">
+                        <div class="modal-header">
                             <h3 class="modal-title">Login</h3>
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>
